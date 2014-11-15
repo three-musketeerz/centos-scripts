@@ -1,11 +1,8 @@
 #!/bin/sh
 
-if ( whoami != root )
-then echo "Jalankan dengan pengguna root"
-else
+echo "Jalankan  dengan root!"
 
- rm /usr/bin/pull
- rm /usr/bin/run-pull
- rm /usr/sbin/rsync-htdocs
-
-fi
+rm /usr/bin/pull
+rm /usr/bin/run-pull
+rm /usr/sbin/rsync-htdocs
+rm /usr/bin/rsync-fw
